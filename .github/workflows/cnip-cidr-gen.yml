@@ -23,7 +23,7 @@ jobs:
         run: |-
           cd $GITHUB_WORKSPACE/routeros-cnip-cidr/
           git diff
-          git config --global user.email "action_bot@rookiezoe.com"
+          git config --global user.email "action_bot@xinjie.life"
           git config --global user.name "ActionBot"
           git add -A
           git commit -m "Update 'cn_ip_cidr.rsc'" || exit 0
